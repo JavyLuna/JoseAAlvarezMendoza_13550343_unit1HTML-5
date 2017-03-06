@@ -1,0 +1,64 @@
+.rectangle{
+	border: 1px solid #000;
+	width: 404px;				/*Como se puede observar el rectangle fue la clase favorita de estas practicas*/
+	height: 300px;				/* Para este caso le agregue margen en todas direcciones para que estuviera separado del otro cuadrado y del top*/
+	margin: 10px;				/*#EnTodoLoCopieYPegue*/
+}
+
+/* .rectanglesec1,.rectanglesec2{
+	border: 1px solid #000;
+	height:300px;	
+	margin: 0; 
+}									Intente simplificarlo pero me resulto contraproducente >:V, eso o no vi algo importante;
+.rectanglesec1{
+	float: left;
+	width: 300px;
+}
+.rectanglesec2{
+	width: 100px;
+	float: right;
+} */
+.rectanglesec1{
+	border: 1px solid #000;			/*solo tienen una diferencia es que */
+	width: 300px;
+	height:300px;					/*en este caso cree una uneva clase rectangle para porder modificarlo diferente que el del nav*/
+	margin: 0; 
+	float: left;
+}.rectanglesec2{
+	border: 1px solid #000;		
+	width: 100px;					/* son casi iguales*/
+	height:300px;
+	margin: 0;
+	float: right;
+}
+#secR1,#secR2,#FR1,#FR2{
+	display: inline-block;			/*aqui lo que le estoy diciendo es que las "Section Rectangle 1 y 2" y "First Rectangle #1 y #2" */
+									/* esten en la mismo bloque*/
+}
+#Esp1,#Esp2,#Esp3{
+	vertical-align: auto;			/*Esto esta para el contenido de la barra latera */
+	padding-bottom: 30px;	
+	padding-left: 20px;
+	text-align: left;
+}
+#perData{
+	text-align: left;				/* contenido de "Personal Data", cositas simples */
+	padding-top: 60px;				
+	padding-left: 20px;
+}
+html{
+	font-family: 'trebuchet MS'		/*Fuente general de la Pagina, el otro componente relevante de todas estas practicas*/
+}
+h2,article{
+	text-align: center;				/*con esto alineamos el h2 y Todo el contenido del article*/
+}
+#secR1 p,#secR2 p{					/*por separado a las secciones les modificamos los margenes para que se viera mas """"""bonito""""""" */
+	margin: 30px;
+}
+#secR3 p,#secR4 p{					/*Lo mismo*/
+	margin: 0;
+}
+h2{	
+	margin: 10px;					/*la distancia que tienen cada uno de los encabezados en este caso solo el H1 */
+}
+

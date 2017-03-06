@@ -1,0 +1,14 @@
+aside, article{
+	display: inline-block;
+}
+aside{
+	width: 300px;
+	position: absolute;
+}
+article{
+	width: 600px;
+	vertical-align: top;
+}
+section{
+	padding-bottom: 10em;
+}

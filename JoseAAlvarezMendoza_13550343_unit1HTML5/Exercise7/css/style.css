@@ -1,0 +1,42 @@
+.rectangle{
+	border: 1px solid #000;
+	width: 450px;				/*Behold! el rectangulo regreso*/
+	height: 700px;				
+}
+.rectangleVitae{				/* Modifique el rectangulo para que no tuviera borde y que fura de diferente dimension para el Encabezado*/
+	width: relative;
+	height: 75px;
+	background-color: #bdbdbd;	
+}
+#CurVit{
+	text-align: center;			/*El texto "Curriculim Vitae" estara centrado*/
+}
+#E1,#E2,#E3{
+	text-align: justify;		/*Education y Experience seran afectadas de esta manera, siendo justificadas y aplicando espacio en la izquierda*/
+	padding:0px 10px 0px 10px;
+}
+#P1 p,#P2 p{					/* detro del contenido las P son para indentificar los parrafos internos sin hacer referenciando*/
+	width: 200px;				/* las etiquetas para modificar el tamanio del parrafo */
+}
+html{
+	font-family: 'trebuchet MS';/*Behold! again, la infalible thebuchetMS */
+}
+h1,p,header,nav{				/*le reducimos los margenes para que estuviera todo mas """"junto""""*/	
+	margin: 0;
+}
+h2{
+	color: #4e342e;				/* Color de letra de Encabezado 2*/
+}
+h1{
+	color:#01579b ;				/* Color de letra de Encabezado 1*/
+}
+article p,section{
+	display: inline-block;		/*hacer que aparezcan los parrafos en general del article y en los sections de todo el documento */
+}
+section{
+	margin-top: 10px;			/* se le dio un margen en la parte de arriba de 10 px para que se separara de lo que sea que tuviera el section*/
+	vertical-align: top;		/* se alineo para que el texto apareciera en la parte superior del section*/
+}
+nav,article{
+	padding-left: 10px;			/*era para separarlo del marco del navegador(Firefox)*/
+}

@@ -1,0 +1,36 @@
+html{
+	font-family: 'trebuchet MS';
+	background-color:#80cbc4;
+	padding-top: 1em;
+	padding-right: 2em;      /*le agregamos la font trebuchet MS, un fondo gris, y espacios arriba,derecha y abajo*/
+	padding-bottom: 1em;
+}
+
+p,b,i,a, html{
+	padding-left: 1em;  /*aqui estamos diciendo que se separe de la izquierda para que no este pegado al costado*/
+}
+
+ul,ol{ /*cabe señalar que se modifican campos en conjunto para ahorrar lineas*/
+
+	display: inline-block; 	/*estos 2 campos modifican en donde se colocaran las listas sin y con orden*/
+	text-align: left;		/*este lo agregue para que empezaran en el mismo lugar, ya que por el tamaño de letra se veia feo*/	
+}
+div,h1{
+	 text-align: center; 
+}
+.rectangulo{
+	position:relative;
+	border: 1px solid #000;
+	background-color: #ffffff;
+	box-shadow: 5px 5px 10px #000; /*aqui agregue una sombra la cual da un efecto de degradado fuera del rectangulo*/
+}
+.rojo{
+	color: #d50000;
+	font-size: 50px;
+
+}
+.naranja{
+	color: #ff9200;
+	width: 15px;
+	font-size: 50px;
+}

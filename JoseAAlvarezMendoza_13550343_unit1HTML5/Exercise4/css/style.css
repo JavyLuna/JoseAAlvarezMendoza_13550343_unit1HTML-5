@@ -1,0 +1,81 @@
+html{									/*Esta pagina consiguio que me cansara 2 veces*/
+	font-family: 'trebuchet MS', Arial;		/*trebuchet MS, otravez*/
+}
+#Solutions{
+	float: right;					/*Solutions es la parte de arriba que esta en la misma linea que el icono de la empresa*/
+	vertical-align: top;			
+}
+#SecTraining p{		
+	margin: 5px 0px 20px 0px;		/*Section Training, la cual a la etiqueta p se le agregara un margen alrededor del ella*/
+}
+div{
+	display: inline-block;			/* todas las divisones en este documento deben de esta r en la misma linea, y alineadas arriba verticalmente*/
+	vertical-align: top;
+}
+img{
+	width: 60px;					/* con esto modificamos el tamanio de icono de la empresa a guto y placer*/
+	height: 60px;
+}
+
+li{
+	display: inline-block;		 	/*las listas del nav se les aplica estas reglas para que esten en linea horizontal, enmedio de la pantalla */
+	position: relative;				/*separadas de ellas*/
+	padding: 0px 10px 0px 10px;
+}
+
+nav{
+	text-align: center;				/* el nav apareceran centradas con respecto al nav y Le agregue una font que me gusto mucho llamada Pacifico*/
+	font-family: 'pacifico',Arial;	/*la cual la agregue como*/
+}
+.rectangleNav{				
+	border: 1px solid #000;			/*El rectangulo que es nuestro amigo que nos acompaniara hasta el fin de estas practicas */
+	background-color: #bdbdbd;		/*aunque este es especificamente el del nav, para darle un fondo que lo resalte y centrarlo*/
+	text-align: center;
+}
+
+.rectangleArt{
+	border: 1px solid #000;			/*Rectangulo del article*/
+	padding-bottom: 10px
+}
+
+.rectangleAside{
+	border: 2px solid #64b5f6;		/*rectangulo del aside*/
+}
+
+section{
+	padding: 0px 4px 0px 4px;		/*reglas para los sections de todo el documento*/
+	width: 600px;
+	height: 200px;	
+	float: left;
+	text-align: justify;
+}
+
+aside{								/*reglas para el aside de todo el documento*/
+	float:right;
+	width: 300px;
+}
+
+aside,section{
+	display: inline-block;			/*los aside y los sections deben de estar en la mismo bloque*/
+}
+
+article{
+	padding-right: 150px;			/* los article tendran un espacio que los separa de los margenes del rectangulo*/
+	padding-left: 150px;			
+}
+
+p,h4{
+	padding-left:10px;				/*lo mismo pero para los parrafos y para los encabezados H4*/
+	padding-right:10px;
+	text-align: justify;
+}
+h3{
+	margin: 8px;					/* le quitamos lo margenes a los encabezados de la parte de arriba (HTML5 Solutions, etc...)*/
+}
+#Image,#ache3{
+	display: inline-block;			/* esto es para que la imagen y el texto "HTML5 Training" esten en el mismo bloque*/
+
+}
+#ache3{								/*lo que contenga ache3 lo manda al lado derecho del section en el mismo bloque que la imagen*/
+	float: right;
+}

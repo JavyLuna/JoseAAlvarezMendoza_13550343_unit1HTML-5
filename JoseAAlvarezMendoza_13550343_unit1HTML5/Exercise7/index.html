@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="rectangle">
+	<header class="rectangleVitae" id="CurVit">
+		<h1>Curriculum</h1>		<!-- decidi separarlos para que se pareciera al del ejemplo-->
+		<h1>Vitae</h1>
+	</header>
+	<nav>
+		<h2>Personal Data</h2>	<!-- Esto esta ubicado en el Navbar del documento, -->
+			<p>Name: Azamat</p>
+			<p>Surname: Azamat</p>
+			<p>Date of birth: 30.07.74</p>
+			<p>Place of birth: Bishkek</p>
+	</nav>
+	<article>	<!--se puede evitar poner lo de arriba en el nav e incluirlo al article, pero no es correcto, debe de haber un nav en cada doc-->
+		<section>
+			<h2>Education</h2>
+			<section id="E1"><!--Education 1--> <!--De aqui nacio el tener que modificar los section a travez de id's --> 
+				<section id="P1">	<!--lo cual facilito la manejabilidad aunque me confundi un poco al inicio-->
+					<p>2005-2009</p>
+				</section>
+				<section id="P2">	<!-- no hace falta decir que todos los section le dan al documento mas independencia para poder modificarlos-->
+					<p>Computer Engineering in the technical university of Kyrgyztan in Bishkek</p>
+				</section>
+			</section>
+			<section id="E2"><!--Education 2-->
+				<section id="P1">
+					<p>2001-2005</p>
+				</section>							<!--de aqui en adelante se repite la misma estructura que arriba-->
+
+				<section id="P2">
+					<p>High School "Manas" in Osh</p>
+				</section>
+			</section>
+			<section id="E3"><!--Education 3-->
+				<section id="P1">
+					<p>1995-2001</p>
+				</section>
+				<section id="P2">
+					<p>Primary school</p>
+				</section>
+			</section>
+		</section>
+		<section>
+			<h2>Professional Experience</h2>
+			<section id="E1"> <!--Experience 1, se aplican los mismos cambios que a Education-->
+				<section id="P1">
+					<p>2007-2009</p>
+				</section>
+				<section id="P2">
+					<p>Computer teacher in High School in Bishkek</p>
+				</section>
+			</section>
+			<section id="E2"><!--Experience 2-->
+				<section id="P1">
+					<p>2005-2007</p>
+				</section>
+				<section id="P2">
+					<p>Secretary of Departament of Software</p>
+				</section>
+			</section>
+		</section>
+	</article>
+</body>
+</html>
